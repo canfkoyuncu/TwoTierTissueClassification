@@ -15,9 +15,9 @@ Model parameters to be adjusted:
 Before run this program, create two txt files containing filenames of images together with their class labels, for the training and test sets. 
 After that, assign the name of the created filenames to the variables trainFilename and testFilename in lines 59 and 60.
  
-To improve the efficiency, the "for" loop in line 5 of "src/getDataset.m" can be executed in parallel using "parfor".
- 
 Each line should have the following format:
  - [image_file_name_with_its_path] [class_label]
  
+To improve the efficiency, the "for" loop in line 5 of "src/getDataset.m" can be executed in parallel using "parfor". 
+
 For further questions feel free to email me at canfkoyuncu@gmail.com
