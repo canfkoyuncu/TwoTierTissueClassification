@@ -13,7 +13,7 @@ Model parameters to be adjusted:
 * *C*        : SVM optimization parameter
 
 Before run this program, create two txt files containing filenames of images together with their class labels, for the training and test sets. 
-After that, assign the name of the created filenames to the variables trainFilename and testFilename in lines 59 and 60.
+After that, assign the name of the created filenames to the variables trainFilename and testFilename in lines 59 and 60, respectively.
  
 Each line should have the following format:
  - [image_file_name_with_its_path] [class_label]
