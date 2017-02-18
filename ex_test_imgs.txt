@@ -1,0 +1,10 @@
+../dataset/t1645.jpg 2
+../dataset/t1646.jpg 2
+../dataset/t1647.jpg 3
+../dataset/t1648.jpg 3
+../dataset/t1649.jpg 2
+../dataset/t1650.jpg 2
+../dataset/t1651.jpg 2
+../dataset/t1652.jpg 1
+../dataset/t1653.jpg 1
+../dataset/t1654.jpg 3
