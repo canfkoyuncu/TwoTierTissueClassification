@@ -3,14 +3,14 @@ In this work, aim is to design a classification system for histopathological ima
 
 NOTE: The following source codes are provided for research purposes only. The authors have no responsibility for any consequences of use of these source codes. If you use any part of the codes, please cite the following paper.
 
-T. Gultekin, C. Koyuncu, C. Sokmensuer, and C. Gunduz-Demir, "Two-tier tissue decomposition for histopathological image representation and classification," IEEE Trans. Med. Imag., vol.34, no.1, pp.275–283, Jan. 2015.
+>T. Gultekin, C. Koyuncu, C. Sokmensuer, and C. Gunduz-Demir, "Two-tier tissue decomposition for histopathological image representation and classification," IEEE Trans. Med. Imag., vol.34, no.1, pp.275–283, Jan. 2015.
 
-Model parameters to be adjusted ():
-K        : cluster number
-sizeThr  : area threshold
-cPercent : covered pixel percentage
-edgeThr  : edge threshold
-C        : SVM optimization parameter
+Model parameters to be adjusted:
+* *K*        : cluster number
+* *sizeThr*  : area threshold
+* *cPercent* : covered pixel percentage
+* *edgeThr*  : edge threshold
+* *C*        : SVM optimization parameter
 
 Before run this program, create two txt files containing filenames of images together with their class labels, for the training and test sets. 
 After that, assign the name of the created filenames to the variables trainFilename and testFilename in lines 59 and 60.
